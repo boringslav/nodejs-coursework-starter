@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  dev-db:
+    image: postgres:13
+    ports:
+      - 5440:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: nodejs-coursework
+    networks:
+      - coursework
+networks:
+  coursework:
+# postgresql://postgres:123@localhost:5434/nodejs-coursework?schema=public
