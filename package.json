@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/boringslav/nodejs-coursework-starter#readme",
   "dependencies": {
+    "@prisma/client": "^3.12.0",
     "@types/express": "^4.17.13",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "prisma": "^3.12.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.26",
