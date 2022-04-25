@@ -12,4 +12,4 @@ services:
       - coursework
 networks:
   coursework:
-# postgresql://postgres:123@localhost:5434/nodejs-coursework?schema=public
+# postgresql://postgres:123@localhost:5440/nodejs-coursework?schema=public
